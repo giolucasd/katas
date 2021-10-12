@@ -1,0 +1,43 @@
+{
+  "name": "@lucsgiovanne/katas",
+  "version": "1.0.0",
+  "description": "A bunch of CLIs solving katas",
+  "main": "src/index.js",
+  "bin": {
+    "@lucsgiovanne/roman-to-decimal": "bin/roman-to-decimal.js",
+    "roman-to-decimal": "bin/roman-to-decimal.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucsgiovanne/katas.git"
+  },
+  "keywords": [
+    "cli",
+    "roman-to-decimal"
+  ],
+  "author": "lucsgiovanne",
+  "license": "ISC",
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "bugs": {
+    "url": "https://github.com/lucsgiovanne/katas/issues"
+  },
+  "homepage": "https://github.com/lucsgiovanne/katas#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "jest": "^27.2.5"
+  }
+}
