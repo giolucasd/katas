@@ -4,7 +4,9 @@
   "description": "A bunch of CLIs solving katas",
   "main": "src/index.js",
   "bin": {
+    "@lucsgiovanne/decimal-to-roman": "bin/decimal-to-roman.js",
     "@lucsgiovanne/roman-to-decimal": "bin/roman-to-decimal.js",
+    "decimal-to-roman": "bin/decimal-to-roman.js",
     "roman-to-decimal": "bin/roman-to-decimal.js"
   },
   "publishConfig": {
@@ -19,6 +21,7 @@
   },
   "keywords": [
     "cli",
+    "decimal-to-roman",
     "roman-to-decimal"
   ],
   "author": "lucsgiovanne",
